@@ -1,0 +1,98 @@
+body{
+   margin: auto;
+   font-family: 'Nunito Sans', sans-serif;
+}
+
+
+/* First section Start */
+
+#top-section{
+background-color: #FFFFFF;
+
+}
+.first-box{
+    display: flex;
+    
+}
+.text-box-1{
+ width: 50%;
+ 
+ 
+}
+.text-box-1 h1{
+    font-size: 65px;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.664);
+    margin-top: 190px;
+    margin-left: 115px;
+
+}
+.text-box-1 p{
+font-size: 25px;
+color: rgba(0, 0, 0, 0.486);
+margin-bottom: 80px;
+margin-left: 115px;
+
+}
+.button {
+    
+    text-decoration: none;
+    outline: none;
+    border: none;
+    padding: 25px 50px;
+    color: white;
+    background: linear-gradient(20deg,#FB974C, #FE4A2E);
+    border-radius: 50px;
+    font-size: 20px;
+    margin-left: 115px;
+    
+}
+.images-box-1{ 
+    
+}
+.images-box-1 img{
+    width: 100%;
+    margin-top: 100px;
+    
+}
+/* First section end */
+
+
+/* second section start */
+#second-section{
+    margin-top: 80px;
+}
+.second-box {
+    display: flex;
+    background-image: url(images/Bg\ cover.png);
+    background-repeat: no-repeat;
+     margin-left: 40px;
+     height: 700px;
+    
+    
+}
+.text-box-1 h2{
+    font-size: 45px;
+    margin-left: 113px;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.514);
+    margin-top: 150px;
+}
+
+/* second section end */
+
+/* About Section Start*/
+#food-section{
+
+}
+.food-title{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.705);
+}
+.food-title h1{
+    font-size: 45px;
+    
+}
+.food-title p{
+    font-size: 20px;
+}
