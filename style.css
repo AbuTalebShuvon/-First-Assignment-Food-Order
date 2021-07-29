@@ -17,7 +17,6 @@ background-color: #FFFFFF;
 .text-box-1{
  width: 50%;
  
- 
 }
 .text-box-1 h1{
     font-size: 65px;
@@ -25,7 +24,6 @@ background-color: #FFFFFF;
     color: rgba(0, 0, 0, 0.664);
     margin-top: 190px;
     margin-left: 115px;
-
 }
 .text-box-1 p{
 font-size: 25px;
@@ -55,12 +53,14 @@ margin-left: 115px;
     margin-top: 100px;
     
 }
-/* First section end */
+
+/*----------------------- First section end------------------------- */
 
 
-/* second section start */
+/* --------------------------second section start---------------------- */
 #second-section{
     margin-top: 80px;
+    
 }
 .second-box {
     display: flex;
@@ -73,21 +73,22 @@ margin-left: 115px;
 }
 .text-box-1 h2{
     font-size: 45px;
-    margin-left: 113px;
+    margin-right: 245px;
     text-transform: capitalize;
     color: rgba(0, 0, 0, 0.514);
     margin-top: 150px;
 }
 
-/* second section end */
+/*------------------------------ second section end --------------------------*/
 
-/* About Section Start*/
+/*----------------------------- About Section Start----------------------------*/
 #food-section{
 
 }
 .food-title{
     text-align: center;
     color: rgba(0, 0, 0, 0.705);
+    
 }
 .food-title h1{
     font-size: 45px;
@@ -96,3 +97,161 @@ margin-left: 115px;
 .food-title p{
     font-size: 20px;
 }
+.abour-food {
+    display: flex;
+
+
+}
+.Food-box{
+    border: 1px solid white;
+    margin: 50px;
+    width: 25%;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px rgb(212, 205, 205);
+    height: 500px;
+    text-align: center;
+    
+}
+.Food-box img{
+    width: 100%;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-left: 2px;
+    
+}
+.Food-box h2{
+ font-size: 35px;
+ font-weight: 800;
+}
+.Food-box p{
+font-size: 20px;
+}
+
+
+/*--------------------------------- About Section end--------------------------*/
+
+
+/*--------------------------------- Extra Section Start--------------------------*/
+
+#extra-section{
+
+}
+.extra-iteam{
+margin-top: 150px;
+margin-bottom: 100px;
+width: 80%;
+margin-left: 123px;
+display: flex;
+box-shadow: 2px 2px 10px rgb(212, 205, 205);
+height: 200px;
+border-radius: 15px;
+
+}
+.extra-txt{
+text-align: center;
+margin-left: 200px;
+
+}
+.extra-txt h2{
+ font-size: 50px;
+ margin-bottom: 22px;
+ color: black;
+}
+.extra-txt p{
+ font-size: 20px;
+ margin-bottom: 100px;
+ color: rgba(0, 0, 0, 0.644);
+ 
+}
+
+#footer{
+    background-color: #0B0D17;
+    padding: 70px;
+    text-align: center;
+}
+#footer h2{
+    line-height: 2;
+    font-size: 30px;
+    color: #fff;
+} 
+
+/*--------------------------------- Extra Section end--------------------------*/
+
+
+
+   /*---------------------------------Bonas section start-------------------------*/
+  #bonas{
+
+    background-color: rgba(255, 166, 0, 0.192);
+    height: 600px;
+    margin-bottom: 100px;
+  }
+
+   .from{
+    background-image: url(images/Bg\ cover\ 2.jpg);
+    background-repeat: no-repeat;
+    background-color:#dfcdcd82;
+    width: 350px;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: -1px 1px 19px 7px  rgba(0, 0, 0, 0.432);
+    text-align: center;
+    margin-left: 600px;
+    height: 400px;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    position: absolute;
+   }
+   h2{
+       color:rgb(0, 0, 0);
+       text-transform: capitalize;
+       font-size: 30px;
+       text-align: center;
+       margin-right: 10px;
+       margin-top: 20px;
+       margin-bottom: 15px;
+       padding: 10px;
+       font-family: 'Anton', sans-serif;;
+   }
+   
+   input {
+       padding: 5px;
+       width: 300px;
+       height: 30px;
+       border: none;
+       margin-left: 15px;
+       border-radius: 1opx;
+       margin-bottom: 15px;
+       display: block;
+       border-radius: 10px;
+       outline: none;
+       border: none;
+   }
+   button{
+       color: white;
+       
+       background-color: black;
+       padding: 10px;
+       width: 200px;
+       margin-left: 15px;
+       border-radius: 10px;
+       margin-top: 5px;
+       font-size: 17px;
+   }
+   
+ /*------------------------------------Bonas section End---------------------------*/
+
+
+ /*----------------------------------footer section start--------------------*/
+
+#footer h2 span{
+    color: #FB974C;
+    margin-bottom: 50px;
+}
+#footer p{
+    color: rgba(221, 221, 221, 0.863);
+    font-size: 18px;
+}
+ /*--------------------------------------------footer section start---------------------------*/
+
